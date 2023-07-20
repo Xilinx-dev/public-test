@@ -13,4 +13,4 @@ jobs:
     steps:
     - name: my mini workflow
       run: |
-        printenv
+        echo "i am anon user on the i ternet sending a PR"
