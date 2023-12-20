@@ -2,9 +2,6 @@ name: test for public
 on:
   pull_request:
     branches: [ master ]
-    paths:
-      - 'README.md'
-      - '!.github/**'
 
 jobs:
   test_job:
