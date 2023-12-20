@@ -9,4 +9,4 @@ jobs:
     steps:
     - name: my mini workflow
       run: |
-        printenv
+        echo "hello world"
